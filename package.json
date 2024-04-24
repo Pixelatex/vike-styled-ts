@@ -1,5 +1,5 @@
 {
-  "name": "booking-flow",
+  "name": "example-vike",
   "scripts": {
     "dev": "npm run server:dev",
     "prod": "npm run build && npm run server:prod",
