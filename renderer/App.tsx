@@ -1,7 +1,5 @@
-import { ApolloProvider } from '@apollo/client'
-import { MultiBrandThemes } from '@travelquest/web-components'
-import React from 'react'
-import { ThemeProvider } from 'styled-components'
+import { ApolloProvider } from "@apollo/client";
+import React from "react";
 
 function App({ apolloClient, children }: any) {
   /* Sentry.init({
@@ -11,10 +9,7 @@ function App({ apolloClient, children }: any) {
     tracesSampleRate: 1.0,
   }) */
 
-  const theme = MultiBrandThemes?.summerBash || MultiBrandThemes?.mountainBash
-  //theme is made in cms based on basic values => ticket
-
-  return <ApolloProvider client={apolloClient}>{children}</ApolloProvider>
+  return <ApolloProvider client={apolloClient}>{children}</ApolloProvider>;
 }
 
-export default App
+export default App;

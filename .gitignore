@@ -56,6 +56,7 @@ doc/
 
 #build
 build/
+dist/
 stamp.json
 /dev/app/config/active-environment/
 # See https://help.github.com/ignore-files/ for more about ignoring files.
